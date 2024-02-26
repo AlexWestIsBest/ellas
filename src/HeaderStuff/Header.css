@@ -1,0 +1,51 @@
+/* Header.css */
+
+.headerBar {
+    background-color: gray;
+}
+
+.headerContent {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: clamp(50vw, 60rem, 100vw);
+}
+
+.logo {
+    margin-left: 20px;
+    height: 100px;
+}
+
+/* Button styles */
+.button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:last-child {
+  margin-right: 20px;
+}
+
+.button:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+/* Unique hover colors for each button */
+.button.menu:hover {
+  background-color: #add8e6; /* Light Blue */
+}
+
+.button.wineandbeer:hover {
+  background-color: #90ee90; /* Light Green */
+}
+
+.button.foodtruck:hover {
+  background-color: #ffb6c1; /* Light Pink */
+}

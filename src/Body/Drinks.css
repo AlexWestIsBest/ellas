@@ -1,0 +1,40 @@
+.softDrinksContainer {
+    display: flex;
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.softDrinks {
+    gap: 10px;
+    background-color: #1f1f1f;
+    padding: 10px;
+}
+
+.drinks p {
+    margin-bottom: 0px;
+}
+
+.sidesMenu p:last-child {
+    color: rgb(255, 191, 0);
+    font-style: italic;
+}
+
+.drinks img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px
+}
+
+.drinkIcon {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px
+}
