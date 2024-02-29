@@ -8,14 +8,14 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
       <header className="headerBar">
-          <div className="headerContent">
-              <Link to="/"><img src={logo} alt="Restaurant Logo" className="logo"></img></Link>
+          {/* <div className="headerContent"> */}
+              {/* <Link to="/"><img src={logo} alt="Restaurant Logo" className="logo"></img></Link> */}
               <div className="buttons">
-                  <Link to="/menu" className="button menu">Menu</Link>
-                  <Link to="/wineandbeer" className="button wineandbeer">Wine & Beer</Link>
+                  <Link to="/menu" className="button menu">Food</Link>
+                  <Link to="/wineandbeer" className="button wineandbeer">Drinks</Link>
                   <Link to="/foodtruck" className="button foodtruck">Food Truck</Link>
               </div>
-          </div>
+          {/* </div> */}
       </header>
   );
 }

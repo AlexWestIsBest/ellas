@@ -6,7 +6,7 @@ import beers from './DrinksData/Beers';
 function WineAndBeer() {
     return (
         <div className="drinks">
-            <h1>Wine & Beer Selection</h1>
+            {/* <h1>Wine & Beer Selection</h1> */}
 
             <div className="softDrinksContainer">
                 <div className="sample">

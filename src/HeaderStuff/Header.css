@@ -1,32 +1,40 @@
 /* Header.css */
 
 .headerBar {
-    background-color: gray;
-}
-
-.headerContent {
-    background-color: lightgray;
+    /* background-color: gray; */
+    height: 60px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: clamp(50vw, 60rem, 100vw);
 }
 
-.logo {
+/* .headerContent { */
+    /* background-color: lightgray; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* margin: 0 auto; */
+    /* width: clamp(50vw, 60rem, 100vw); */
+/* } */
+
+/* .logo {
     margin-left: 20px;
-    height: 100px;
-}
+    height: 60px;
+} */
 
 /* Button styles */
 .button {
-  background-color: white;
-  border: 1px solid black;
-  color: black;
+  /* background-color: white; */
+  /* border: 1px solid black; */
+  color: white;
+  font-size: large;
+  font-weight: 900;
   padding: 10px 20px;
   margin-right: 10px;
   cursor: pointer;
   transition: 0.3s;
+  border: 1px solid rgb(255, 191, 0);
+  text-decoration: none;
 }
 
 .button:last-child {
@@ -34,18 +42,6 @@
 }
 
 .button:hover {
-  background-color: #f0f0f0; /* Change background color on hover */
-}
-
-/* Unique hover colors for each button */
-.button.menu:hover {
-  background-color: #add8e6; /* Light Blue */
-}
-
-.button.wineandbeer:hover {
-  background-color: #90ee90; /* Light Green */
-}
-
-.button.foodtruck:hover {
-  background-color: #ffb6c1; /* Light Pink */
+  background-color: rgb(255, 191, 0); /* Change background color on hover */
+  color: black;
 }
