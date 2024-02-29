@@ -15,9 +15,9 @@ function App() {
                 <Header />
                 <div className="bodyContent">
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="/" element={<Menu />} />  {/* LOOK HERE ALEX- ALTERNATIVE HOME PAGE */}
                         <Route path="/menu" element={<Menu />} />
-                        <Route path="/wineandbeer" element={<WineAndBeer />} />
+                        <Route path="/drinks" element={<WineAndBeer />} />
                         <Route path="/foodtruck" element={<FoodTruck />} />
                     </Routes>
                 </div>
