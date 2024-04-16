@@ -8,9 +8,9 @@ import sidesMenu from './MenuData/Sides';
 function Menu() {
   return (
     <div>
-      <h1>Ella's Menu</h1>
+      <h1> Menu</h1>
       {/* <p>Select items available for delivery during lunch hours. Click here to order.</p> */}
-      <p>No modifications. Pick off your own damn pickles.</p>
+      <p>No modifications allowed</p>
 
       <div className="subContainer">
           {subMenu.map(sub => (
@@ -24,8 +24,8 @@ function Menu() {
           ))}
       </div>
 
-      <h1>Sides with that?</h1>
-      <p>Our truck fries are the shit.</p>
+      <h1>Side with that?</h1>
+      <p>Lots to choose from</p>
 
       <div className="sidesContainer">
           {sidesMenu.map(side => (
