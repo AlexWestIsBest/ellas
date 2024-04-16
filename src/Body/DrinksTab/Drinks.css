@@ -1,0 +1,26 @@
+.drinks img {
+    height: 200px;
+    margin: 20px;
+}
+
+.drinks .verticalText {
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    transform-origin: center; /* Rotates from the center of the element */
+    white-space: nowrap; /* Ensures the text does not wrap */
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.drinks .drinkList {
+    margin: 20px;
+    align-items: start;
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes default padding */
+    font-weight: 100;
+}
+
+.drinks li {
+    padding: 3px;
+    margin: 3px;
+}

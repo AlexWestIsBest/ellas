@@ -22,3 +22,29 @@ html, body {
   width: 100%;
   margin: 0 auto;
 }
+
+.VStack {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally in the stack */
+  justify-content: flex-start; /* Align items to the start of the flex-direction */
+}
+
+.HStack {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center items vertically in the stack */
+  justify-content: center; /* Align items to the start of the flex-direction */
+}
+
+.ZStack {
+  position: relative;
+  width: 100%; /* Set the desired width */
+  height: 100%; /* Set the desired height */
+}
+
+.ZStack > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,29 +1,11 @@
-/* Header.css */
-
-.headerBar {
-    /* background-color: gray; */
+.footer {
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* .headerContent { */
-    /* background-color: lightgray; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* margin: 0 auto; */
-    /* width: clamp(50vw, 60rem, 100vw); */
-/* } */
-
-/* .logo {
-    margin-left: 20px;
-    height: 60px;
-} */
-
-/* Button styles */
-.button {
+.footer .button {
   /* background-color: white; */
   /* border: 1px solid black; */
   color: white;
@@ -37,7 +19,7 @@
   text-decoration: none;
 }
 
-.button:hover {
+.footer .button:hover {
   background-color: rgb(255, 191, 0); /* Change background color on hover */
   color: black;
 }
