@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import logo from './ellasLogo2.jpg';
 
@@ -8,7 +8,9 @@ import logo from './ellasLogo2.jpg';
 function Header() {
     return (
         <header className="VStack header">
-            <Link to="/"><img src={logo} alt="Restaurant Logo" /></Link>
+            <img src={logo} alt="Restaurant Logo" />
+
+            {/* More stuff? */}
         </header>
     );
 }
