@@ -1,15 +1,17 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
     return (
         <footer className="VStack footer">
-            <div className="buttons">
-                <Link to="/menu" className="button menu">Menu</Link>
-                <Link to="/drinks" className="button wineandbeer">Drinks</Link>
-                <Link to="/foodtruck" className="button foodtruck">Food Truck</Link>
+            <div className="HStack buttons">
+                <NavLink to="/menu" className="button menu" activeClassName="active">Menu</NavLink>
+                <NavLink to="/drinks" className="button wineandbeer" activeClassName="active">Drinks</NavLink>
+                <NavLink to="/foodtruck" className="button foodtruck" activeClassName="active">Food Truck</NavLink>
             </div>
+
+            {/* TODO: Add social buttons */}
         </footer>
     );
 }
