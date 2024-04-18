@@ -1,16 +1,16 @@
 import React from 'react';
 import './Drinks.css'
 //
-import glassWines from './DrinksData/glassWines';
+import glassWines from './Data/glassWines';
 import glassWine from './Images/wineGlass.png'
 //
-import bottleWines from './DrinksData/bottleWines';
+import bottleWines from './Data/bottleWines';
 import bottleWine from './Images/bottleWine.png';
 //
-import draftBeer from './DrinksData/draftBeer';
+import draftBeer from './Data/draftBeer';
 import draftedBeer from './Images/draftBeer.png'
 //
-import bottleBeer from './DrinksData/bottleBeer';
+import bottleBeer from './Data/bottleBeer';
 import bottledBeer from './Images/bottledBeer.png'
 
 
