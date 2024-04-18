@@ -1,5 +1,9 @@
 .drinks {
-    color: rgb(150, 150, 150);
+    color: white;
+}
+
+.drinks > .HStack {
+    width: 45%;
 }
 
 .drinks img {
@@ -17,11 +21,11 @@
 }
 
 .drinks hr {
-    border: 1px solid rgb(160, 160, 160);
+    /* border: 1px solid rgb(160, 160, 160); */
 }
 
 .drinks .drinkList {
-    margin: 20px;
+    margin: 20px 0 20px 20px;
     align-items: start;
     list-style-type: none; /* Removes bullet points */
     padding-left: 0; /* Removes default padding */
@@ -33,6 +37,11 @@
     margin: 3px 0;
 }
 
+.drinks li:hover {
+    background-color: red;
+}
+
 .drinks i {
-    color: white;
+    color: rgb(255, 191, 0);
+    font-weight: 900;
 }
