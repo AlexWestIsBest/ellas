@@ -23,7 +23,7 @@ function WineAndBeer() {
                 <ul className="VStack drinkList">
                     {glassWines.map(wine => (
                         <li key={wine.name}>
-                            <strong>{wine.name}</strong> ${wine.price}
+                            <b>{wine.name}</b> <i>${wine.price}</i>
                         </li>
                     ))}
                 </ul>
@@ -35,7 +35,7 @@ function WineAndBeer() {
                 <ul className="VStack drinkList">
                     {bottleWines.map(wine => (
                         <li key={wine.name}>
-                            <strong>{wine.name}</strong> ${wine.price}
+                            <b>{wine.name}</b> <i>${wine.price}</i>
                         </li>
                     ))}
                 </ul>
@@ -47,7 +47,7 @@ function WineAndBeer() {
                 <ul className="VStack drinkList">
                     {draftBeer.map(beer => (
                         <li key={beer.name}>
-                            <strong>{beer.name}</strong> ${beer.price}
+                            <b>{beer.name}</b> <i>${beer.price}</i>
                         </li>
                     ))}
                 </ul>
@@ -59,7 +59,7 @@ function WineAndBeer() {
                 <ul className="VStack drinkList">
                     {bottleBeer.map(beer => (
                         <li key={beer.name}>
-                            <strong>{beer.name}</strong> ${beer.price}
+                            <b>{beer.name}</b> <i>${beer.price}</i>
                         </li>
                     ))}
                 </ul>
