@@ -28,6 +28,7 @@ html, body {
 .VStack {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center; /* Center items horizontally in the stack */
   justify-content: flex-start; /* Align items to the start of the flex-direction */
 }
@@ -35,6 +36,7 @@ html, body {
 .HStack {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center; /* Center items vertically in the stack */
   justify-content: center; /* Align items to the start of the flex-direction */
 }

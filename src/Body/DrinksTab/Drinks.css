@@ -1,6 +1,10 @@
+.drinks {
+    color: rgb(150, 150, 150);
+}
+
 .drinks img {
     height: 200px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .drinks .verticalText {
@@ -12,6 +16,10 @@
     font-weight: 900;
 }
 
+.drinks hr {
+    border: 1px solid rgb(160, 160, 160);
+}
+
 .drinks .drinkList {
     margin: 20px;
     align-items: start;
@@ -21,10 +29,10 @@
 }
 
 .drinks li {
-    padding: 3px;
-    margin: 3px;
+    padding: 3px 0;
+    margin: 3px 0;
 }
 
 .drinks i {
-    color: rgb(255, 191, 0);
+    color: white;
 }

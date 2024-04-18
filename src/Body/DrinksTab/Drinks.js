@@ -16,7 +16,7 @@ import bottledBeer from './DrinksImages/bottledBeer.png'
 
 function WineAndBeer() {
     return (
-        <div className="VStack drinks">
+        <div className="HStack drinks">
             <div class="HStack">
                 <img src={glassWine} alt="Wine Glass" />
                 <div class="verticalText">Wine by the Glass<hr /></div>
