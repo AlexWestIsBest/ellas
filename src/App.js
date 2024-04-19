@@ -2,12 +2,12 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //
-import Header from './Body/Header/Header';
+import Header from './Header/Header';
 //
 // import Home from './Body/Home';
-import Menu from './Body/Menu';
+import Menu from './Body/Menu/Menu';
 import Drinks from './Body/Drinks/Drinks';
-import FoodTruck from './Body/FoodTruck';
+import FoodTruck from './Body/FoodTruck/FoodTruck';
 //
 import Footer from './Footer/Footer';
 
