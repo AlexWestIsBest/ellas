@@ -9,13 +9,18 @@ import lunches from './Data/lunches';
 
 function Menu() {
     return (
-        <div className="VStack">
+        <div className="VStack menu">
+            <br />
+
             <h1>Small Plates</h1>
-            <div className="VStack">
+            <div className="HStack">
                 {smallPlates.map(sub => (
-                    <div className={`${sub.featured ? 'featured' : ''}`}>
-                        <h3>{sub.name} ........ ${sub.price}</h3>
-                        <p>{sub.description}</p>
+                    <div className={`menuItem ${sub.featured ? 'featured' : ''}`}>
+                        {/* <img src="https://placehold.co/80" alt="" /> */}
+                        <div className="VStack">
+                            <h3>{sub.name}</h3>
+                            <p>{sub.description} ${sub.price}</p>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -23,11 +28,14 @@ function Menu() {
             <br />
 
             <h1>Salads</h1>
-            <div className="VStack">
+            <div className="HStack">
                 {salads.map(salad => (
-                    <div className={`${salad.featured ? 'featured' : ''}`}>
-                        <h3>{salad.name} ........ ${salad.price}</h3>
-                        <p>{salad.description}</p>
+                    <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>
+                        {/* <img src="https://placehold.co/80" alt="" /> */}
+                        <div className="VStack">
+                            <h3>{salad.name}</h3>
+                            <p>{salad.description} ${salad.price}</p>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -35,11 +43,14 @@ function Menu() {
             <br />
 
             <h1>Handhelds</h1>
-            <div className="VStack">
+            <div className="HStack">
                 {handhelds.map(handheld => (
-                    <div className={`${handheld.featured ? 'featured' : ''}`}>
-                        <h3>{handheld.name} ........ ${handheld.price}</h3>
-                        <p>{handheld.description}</p>
+                    <div className={`menuItem ${handheld.featured ? 'featured' : ''}`}>
+                        {/* <img src="https://placehold.co/80" alt="" /> */}
+                        <div className="VStack">
+                            <h3>{handheld.name}</h3>
+                            <p>{handheld.description} ${handheld.price}</p>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -47,11 +58,14 @@ function Menu() {
             <br />
 
             <h1>Pizza</h1>
-            <div className="VStack">
+            <div className="HStack">
                 {pizzas.map(pizza => (
-                    <div className={`${pizza.featured ? 'featured' : ''}`}>
-                        <h3>{pizza.name} ........ ${pizza.price}</h3>
-                        <p>{pizza.description}</p>
+                    <div className={`menuItem ${pizza.featured ? 'featured' : ''}`}>
+                        {/* <img src="https://placehold.co/80" alt="" /> */}
+                        <div className="VStack">
+                            <h3>{pizza.name}</h3>
+                            <p>{pizza.description} ${pizza.price}</p>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -59,14 +73,18 @@ function Menu() {
             <br />
 
             <h1>Lunch</h1>
-            <div className="VStack">
+            <div className="HStack">
                 {lunches.map(lunch => (
-                    <div className={`${lunch.featured ? 'featured' : ''}`}>
-                        <h3>{lunch.name} ........ ${lunch.price}</h3>
-                        <p>{lunch.description}</p>
+                    <div className={`menuItem ${lunch.featured ? 'featured' : ''}`}>
+                        {/* <img src="https://placehold.co/80" alt="" /> */}
+                        <div className="VStack">
+                            <h3>{lunch.name}</h3>
+                            <p>{lunch.description} ${lunch.price}</p>
+                        </div>
                     </div>
                 ))}
             </div>
+
 
         </div>
     );

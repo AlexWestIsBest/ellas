@@ -1,3 +1,41 @@
-.featured {
-    border: 1px solid rgb(255, 191, 0);
+.menu .HStack {
+    display: flex;
+    align-items: flex-start; /* Keeps entries (when one has a longer description than the other) in top left corner */
+}
+
+.menu .menuItem {
+    display: flex;
+    width: 45%;
+    text-align: left;
+    align-items: flex-start; /* Keeps img in top left corner */
+    margin: 10px;
+    padding-left: 2px;
+}
+
+.menu .menuItem > .VStack {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .menu .menuItem {
+        width: 99%;
+        margin: 2px
+    }
+}
+
+.menu .featured {
+    border: 2px solid rgb(255, 191, 0);
+}
+
+.menu img {
+    margin-right: 10px;
+}
+
+.menu h3 {
+    color: rgb(255, 191, 0);
+}
+
+.menu p {
+    font-style: italic;
 }
