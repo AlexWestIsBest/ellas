@@ -19,7 +19,7 @@ const handhelds = [
     },
     {
         name: "Dixie Fried Chicken",
-        description: "House Slaw. Pickles. Roasted Garlic Aioli. Mike's © Hot Honey.",
+        description: "House Slaw. Pickles. Roasted Garlic Aioli. Mike's™ Hot Honey.",
         price: 13,
         featured: false,
         imageURL: ""

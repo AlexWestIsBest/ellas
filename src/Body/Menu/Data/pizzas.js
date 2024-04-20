@@ -1,7 +1,7 @@
 const pizzas = [
     {
         name: "The Capo",
-        description: "San Marzano Tomato, Shredded Whole Milk Mozzarella, Pepperoni, Italian Sausage, Hot Honey, Arugula.",
+        description: "San Marzano Tomato, Shredded Whole Milk Mozzarella, Pepperoni, Italian Sausage, Mike's™ Hot Honey, Arugula.",
         price: 20,
         featured: false,
         imageURL: ""

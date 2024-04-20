@@ -42,7 +42,7 @@ const smallPlates = [
       imageURL: ""
   },
   {
-      name: "Cluckin Tacos",
+      name: "Cluckin' Tacos",
       description: "Shredded Chicken. Adobo Salsa. Pico. Tequila Lime Crema. Cilantro.",
       price: 12,
       featured: true,
@@ -56,8 +56,8 @@ const smallPlates = [
       imageURL: ""
   },
   {
-      name: "Chef’s Charcuterie",
-      description: "(3) of our select cured meats. (3) of our select artisanal cheeses. Ella’s Peach Jalapeno Jam. Grilled Baguette.",
+      name: "Chef's Charcuterie",
+      description: "(3) of our select cured meats. (3) of our select artisanal cheeses. Ella's Peach Jalapeno Jam. Grilled Baguette.",
       price: 20,
       featured: false,
       imageURL: ""
