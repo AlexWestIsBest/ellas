@@ -9,7 +9,7 @@
     text-align: left;
     align-items: flex-start; /* Keeps img in top left corner */
     margin: 10px;
-    padding-left: 2px;
+    padding-left: 2px; /* helps the border fit nicer around the edge of text */
 }
 
 .menu .menuItem > .VStack {
