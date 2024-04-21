@@ -9,7 +9,7 @@
     text-align: left;
     align-items: flex-start; /* Keeps img in top left corner */
     margin: 10px;
-    padding-left: 2px; /* helps the border fit nicer around the edge of text */
+    /* padding-left: 2px; helps the border fit nicer around the edge of text when not using photos */
 }
 
 .menu .menuItem > .VStack {
@@ -38,8 +38,10 @@
 
 .menu p {
     font-style: italic;
+    font-weight: 100;
 }
 
 .menu .pizzaLogo {
-    height: 120px;
+    width: 500px;
+    max-width: 99%;
 }
