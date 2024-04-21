@@ -28,7 +28,7 @@
     border: 2px solid rgb(255, 191, 0);
 }
 
-.menu img {
+.menu .plate {
     margin-right: 10px;
 }
 
@@ -41,7 +41,13 @@
     font-weight: 100;
 }
 
-.menu .pizzaLogo {
+.menu .smallPlatesLogo {
     width: 500px;
+    max-width: 99%;
+    transform: rotate(-1.8deg);
+    margin-bottom: 8px;
+}
+.menu .pizzaLogo {
+    width: 400px;
     max-width: 99%;
 }
