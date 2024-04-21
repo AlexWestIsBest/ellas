@@ -39,3 +39,7 @@
 .menu p {
     font-style: italic;
 }
+
+.menu .pizzaLogo {
+    height: 120px;
+}

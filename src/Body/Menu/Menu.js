@@ -1,10 +1,19 @@
 import React from 'react';
 import "./Menu.css"
 //
+
 import smallPlates from './Data/smallPlates';
+//
+
 import salads from './Data/salads';
+//
+
 import handhelds from './Data/handhelds';
+//
+import pizzaLogo from './Images/pizza.png'
 import pizzas from './Data/pizzas';
+//
+
 import lunches from './Data/lunches';
 
 function Menu() {
@@ -57,7 +66,7 @@ function Menu() {
 
             <br />
 
-            <h1>Pizza</h1>
+            <img className="pizzaLogo" src={pizzaLogo} alt="" />
             <div className="HStack">
                 {pizzas.map(pizza => (
                     <div className={`menuItem ${pizza.featured ? 'featured' : ''}`}>
