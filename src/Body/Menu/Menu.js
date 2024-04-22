@@ -4,16 +4,16 @@ import "./Menu.css"
 import smallPlatesLogo from './Images/smallPlatesLogo.png'
 import smallPlates from './Data/smallPlates';
 //
-
+import saladsLogo from './Images/saladsLogo.png'
 import salads from './Data/salads';
 //
-
+import handheldsLogo from './Images/handheldsLogo.png'
 import handhelds from './Data/handhelds';
 //
-import pizzaLogo from './Images/pizza.png'
+import pizzaLogo from './Images/pizzaLogo.png'
 import pizzas from './Data/pizzas';
 //
-
+import lunchLogo from './Images/lunchLogo.png'
 import lunches from './Data/lunches';
 
 function Menu() {
@@ -21,7 +21,6 @@ function Menu() {
         <div className="VStack menu">
             <br />
 
-            {/* <h1>Small Plates</h1> */}
             <img className="smallPlatesLogo" src={smallPlatesLogo} alt="" />
             <div className="HStack">
                 {smallPlates.map(sub => (
@@ -37,7 +36,7 @@ function Menu() {
 
             <br />
 
-            <h1>Salads</h1>
+            <img className="saladsLogo" src={saladsLogo} alt="" />
             <div className="HStack">
                 {salads.map(salad => (
                     <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>
@@ -52,7 +51,7 @@ function Menu() {
 
             <br />
 
-            <h1>Handhelds</h1>
+            <img className="handheldsLogo" src={handheldsLogo} alt="" />
             <div className="HStack">
                 {handhelds.map(handheld => (
                     <div className={`menuItem ${handheld.featured ? 'featured' : ''}`}>
@@ -82,7 +81,7 @@ function Menu() {
 
             <br />
 
-            <h1>Lunch</h1>
+            <img className="lunchLogo" src={lunchLogo} alt="" />
             <div className="HStack">
                 {lunches.map(lunch => (
                     <div className={`menuItem ${lunch.featured ? 'featured' : ''}`}>
