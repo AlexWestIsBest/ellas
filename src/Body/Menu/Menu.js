@@ -23,12 +23,12 @@ function Menu() {
 
             <img className="smallPlatesLogo" src={smallPlatesLogo} alt="" />
             <div className="HStack">
-                {smallPlates.map(sub => (
-                    <div className={`menuItem ${sub.featured ? 'featured' : ''}`}>
-                        <img className="plate" src="https://placehold.co/60x60/gray/lightgray?text=Image" alt="" />
+                {smallPlates.map(smallPlate => (
+                    <div className={`menuItem ${smallPlate.featured ? 'featured' : ''}`}>
+                        <img className="plate" src="https://placehold.co/64x64/gray/lightgray?text=Image" alt="" />
                         <div className="VStack">
-                            <h3>{sub.name}</h3>
-                            <p>{sub.description} ${sub.price}</p>
+                            <h3>{smallPlate.name}</h3>
+                            <p>{smallPlate.description} ${smallPlate.price}</p>
                         </div>
                     </div>
                 ))}
