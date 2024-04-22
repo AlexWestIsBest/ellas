@@ -2,8 +2,8 @@
     color: white;
 }
 
-@media (max-width: 600px) {
-    .drinks .HStack {
+@media (max-width: 500px) {
+    .drinks {
         justify-content: flex-start;
     }
 }
