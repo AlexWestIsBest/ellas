@@ -43,7 +43,7 @@ const pizzas = [
     },
     {
         name: "The Siren",
-        description: "San Marzano Tomato, Shredded Whole Milk Mozzarella, Cappicola, Pepperoni, Mama Lil’s Sweet Hot Peppers, Jalapeno, Parmigiano Reggiano.",
+        description: "San Marzano Tomato, Shredded Whole Milk Mozzarella, Cappicola, Pepperoni, Mama Lil's Sweet Hot Peppers, Jalapeno, Parmigiano Reggiano.",
         price: 19,
         featured: false,
         imageURL: ""
