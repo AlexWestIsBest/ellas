@@ -1,7 +1,7 @@
 import React from 'react';
 import "./DinnerTab.css"
 //
-import smallPlatesLogo from './Logos/smallPlatesLogo2.png'
+import smallPlatesLogo from './Logos/smallPlatesLogo3.png'
 import smallPlates from './Data/smallPlates';
 //
 import handheldsLogo from './Logos/handheldsLogo.png'
