@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Menu.css"
+import "./DinnerTab.css"
 //
 import smallPlatesLogo from './Images/smallPlatesLogo.png'
 import smallPlates from './Data/smallPlates';
@@ -16,7 +16,7 @@ import salads from './Data/salads';
 
 function DinnerTab() {
     return (
-        <div className="VStack menu">
+        <div className="VStack dinnerTab">
             <br />
 
             <img className="smallPlatesLogo" src={smallPlatesLogo} alt="" />
@@ -35,7 +35,7 @@ function DinnerTab() {
             <br />
 
             <img className="saladsLogo" src={saladsLogo} alt="" />
-            <p>Add Chicken - $4</p>
+            <p>Add Chicken to any salad - $4</p>
             <div className="HStack">
                 {salads.map(salad => (
                     <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>

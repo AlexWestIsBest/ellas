@@ -1,0 +1,67 @@
+.dinnerTab .HStack {
+    display: flex;
+    align-items: flex-start; /* Keeps entries (when one has a longer description than the other) in top left corner */
+}
+
+.dinnerTab .menuItem {
+    display: flex;
+    width: 45%;
+    text-align: left;
+    align-items: flex-start; /* Keeps img in top left corner */
+    margin: 10px;
+    /* padding-left: 2px; helps the border fit nicer around the edge of text when not using photos */
+}
+
+.dinnerTab .menuItem > .VStack {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .dinnerTab .menuItem {
+        width: 99%;
+        margin: 4px
+    }
+}
+
+.dinnerTab .featured {
+    border: 2px solid rgb(255, 191, 0);
+}
+
+.dinnerTab .plate {
+    margin-right: 10px;
+}
+
+.dinnerTab h3 {
+    color: rgb(255, 191, 0);
+}
+
+.dinnerTab p {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.dinnerTab .smallPlatesLogo {
+    width: 400px;
+    max-width: 99%;
+    transform: rotate(-1.8deg);
+    margin-bottom: 8px;
+}
+
+.dinnerTab .saladsLogo {
+    width: 350px;
+    max-width: 99%;
+    margin-bottom: 10px;
+}
+
+.dinnerTab .handheldsLogo {
+    width: 350px;
+    max-width: 99%;
+    margin-bottom: 14px;
+
+}
+
+.dinnerTab .pizzaLogo {
+    width: 400px;
+    max-width: 99%;
+}
