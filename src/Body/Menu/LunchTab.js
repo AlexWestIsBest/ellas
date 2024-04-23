@@ -1,10 +1,10 @@
 import React from 'react';
 import "./LunchTab.css"
 //
-import lunchLogo from './Images/lunchLogo.png'
+import lunchLogo from './Logos/lunchLogo.png'
 import lunches from './Data/lunches';
 //
-import saladsLogo from './Images/saladsLogo.png'
+import saladsLogo from './Logos/saladsLogo.png'
 import salads from './Data/salads';
 
 
@@ -17,7 +17,11 @@ function LunchTab() {
             <div className="HStack">
                 {lunches.map(lunch => (
                     <div className={`menuItem ${lunch.featured ? 'featured' : ''}`}>
-                        <img className="plate" src="https://placehold.co/60x60/gray/lightgray?text=Image" alt="" />
+                        <img
+                            className="plate"
+                            src={lunch.imageURL ? lunch.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
+                            alt=""
+                        />
                         <div className="VStack">
                             <h3>{lunch.name}</h3>
                             <p>{lunch.description} ${lunch.price}</p>
@@ -33,7 +37,11 @@ function LunchTab() {
             <div className="HStack">
                 {salads.map(salad => (
                     <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>
-                        <img className="plate" src="https://placehold.co/60x60/gray/lightgray?text=Image" alt="" />
+                        <img
+                            className="plate"
+                            src={salad.imageURL ? salad.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
+                            alt=""
+                        />
                         <div className="VStack">
                             <h3>{salad.name}</h3>
                             <p>{salad.description} ${salad.price}</p>
