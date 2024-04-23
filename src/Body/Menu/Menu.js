@@ -36,21 +36,6 @@ function Menu() {
 
             <br />
 
-            <img className="saladsLogo" src={saladsLogo} alt="" />
-            <div className="HStack">
-                {salads.map(salad => (
-                    <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>
-                        <img className="plate" src="https://placehold.co/60x60/gray/lightgray?text=Image" alt="" />
-                        <div className="VStack">
-                            <h3>{salad.name}</h3>
-                            <p>{salad.description} ${salad.price}</p>
-                        </div>
-                    </div>
-                ))}
-            </div>
-
-            <br />
-
             <img className="handheldsLogo" src={handheldsLogo} alt="" />
             <div className="HStack">
                 {handhelds.map(handheld => (
@@ -74,6 +59,21 @@ function Menu() {
                         <div className="VStack">
                             <h3>{pizza.name}</h3>
                             <p>{pizza.description} ${pizza.price}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <br />
+
+            <img className="saladsLogo" src={saladsLogo} alt="" />
+            <div className="HStack">
+                {salads.map(salad => (
+                    <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>
+                        <img className="plate" src="https://placehold.co/60x60/gray/lightgray?text=Image" alt="" />
+                        <div className="VStack">
+                            <h3>{salad.name}</h3>
+                            <p>{salad.description} ${salad.price}</p>
                         </div>
                     </div>
                 ))}
