@@ -11,10 +11,15 @@ function Header() {
     const currentLogo = location.pathname === '/foodtruck' ? truckLogo : restaurantLogo;
 
     return (
-        <header className="VStack header">
+        <header className="HStack header">
             <img src={currentLogo} alt="Restaurant Logo" />
 
-            {/* More stuff? */}
+            <div className="VStack">
+                {/* Social media logos - pure white on black background. Minimalist. */}
+
+                {/* Dynamic: "Opens in 1 hour" "Open until 9pm today" */}
+                <h3>Opens mid-May!</h3>
+            </div>
         </header>
     );
 }
