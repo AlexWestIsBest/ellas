@@ -7,7 +7,7 @@ const salads = [
         imageURL: ""
     },
     {
-        name: "Mediterranean Veg + Chickpea",
+        name: "Mediterranean Veg & Chickpea",
         description: "Spring Mix. Roasted Zucchini. Yellow Squash. Red Onion. Jewel Tomato. Cucumber. Roasted Red Pepper. Chickpea. Feta. Dijon Vinaigrette.",
         price: 14,
         featured: false,
