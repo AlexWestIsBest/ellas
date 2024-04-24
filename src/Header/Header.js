@@ -18,7 +18,7 @@ function Header() {
                 {/* Social media logos - pure white on black background. Minimalist. */}
 
                 {/* Dynamic: "Opens in 1 hour" "Open until 9pm today" */}
-                <h3>Opens mid-May!</h3>
+                {/* <h3>Opens mid-May!</h3> */}
             </div>
         </header>
     );

@@ -25,7 +25,8 @@
 }
 
 .dinnerTab .featured {
-    border: 2px solid rgb(255, 191, 0);
+    border: 2px solid rgb(83, 74, 52);
+    /* border: 2px solid rgb(243, 212, 163); */
 }
 
 .dinnerTab .plate {
@@ -33,13 +34,23 @@
 }
 
 .dinnerTab h3 {
-    color: rgb(255, 191, 0);
+    font-weight: 900;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family:'Courier New', Courier, monospace;
 }
 
 .dinnerTab p {
+    color: rgb(138, 138, 138);
     font-style: italic;
     font-weight: 100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.dinnerTab .price {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
 
 .dinnerTab .smallPlatesLogo {
     width: 400px;

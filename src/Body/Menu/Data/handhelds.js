@@ -6,6 +6,7 @@ const handhelds = [
             { type: "Single", price: 10 },
             { type: "Double", price: 13 }
         ],
+        featured: true,
         imageURL: ""
     },
     {
@@ -15,6 +16,7 @@ const handhelds = [
             { type: "Single", price: 11 },
             { type: "Double", price: 14 }
         ],
+        featured: false,
         imageURL: ""
     },
     {

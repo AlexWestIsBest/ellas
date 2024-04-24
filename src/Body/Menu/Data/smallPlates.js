@@ -45,14 +45,14 @@ const smallPlates = [
       name: "Cluckin' Tacos",
       description: "Shredded Chicken. Adobo Salsa. Pico. Tequila Lime Crema. Cilantro.",
       price: 12,
-      featured: true,
+      featured: false,
       imageURL: ""
   },
   {
       name: "Bang Bang Tacos",
       description: "Ella's Bang Bang Shrimp. Jalapeno Lime Slaw. Chipotle Crema. Cilantro.",
       price: 14,
-      featured: false,
+      featured: true,
       imageURL: ""
   },
   {

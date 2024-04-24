@@ -25,12 +25,12 @@ function DinnerTab() {
                     <div className={`menuItem ${smallPlate.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={smallPlate.imageURL ? smallPlate.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
+                            src={smallPlate.imageURL ? smallPlate.imageURL : "https://placehold.co/60x60/black/gray?text=Photo"} 
                             alt=""
                         />
                         <div className="VStack">
                             <h3>{smallPlate.name}</h3>
-                            <p>{smallPlate.description} ${smallPlate.price}</p>
+                            <p>{smallPlate.description} <span className="price">${smallPlate.price}&mdash;</span></p>
                         </div>
                     </div>
                 ))}
@@ -39,18 +39,18 @@ function DinnerTab() {
             <br />
 
             <img className="saladsLogo" src={saladsLogo} alt="" />
-            <p>Add Chicken to any salad - $4</p>
+            <p style={{ color: 'white' }}>Add Chicken to any salad - $4</p>
             <div className="HStack">
                 {salads.map(salad => (
                     <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={salad.imageURL ? salad.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
+                            src={salad.imageURL ? salad.imageURL : "https://placehold.co/60x60/black/gray?text=Photo"} 
                             alt=""
                         />
                         <div className="VStack">
                             <h3>{salad.name}</h3>
-                            <p>{salad.description} ${salad.price}</p>
+                            <p>{salad.description} <span className="price">${salad.price}&mdash;</span></p>
                         </div>
                     </div>
                 ))}
@@ -64,12 +64,12 @@ function DinnerTab() {
                     <div className={`menuItem ${handheld.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={handheld.imageURL ? handheld.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
+                            src={handheld.imageURL ? handheld.imageURL : "https://placehold.co/60x60/black/gray?text=Photo"} 
                             alt=""
                         />
                         <div className="VStack">
                             <h3>{handheld.name}</h3>
-                            <p>{handheld.description} ${handheld.price}</p>
+                            <p>{handheld.description} <span className="price">${handheld.price}&mdash;</span></p>
                         </div>
                     </div>
                 ))}
@@ -83,12 +83,12 @@ function DinnerTab() {
                     <div className={`menuItem ${pizza.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={pizza.imageURL ? pizza.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
+                            src={pizza.imageURL ? pizza.imageURL : "https://placehold.co/60x60/black/gray?text=Photo"} 
                             alt=""
                         />
                         <div className="VStack">
                             <h3>{pizza.name}</h3>
-                            <p>{pizza.description} ${pizza.price}</p>
+                            <p>{pizza.description} <span className="price">${pizza.price}&mdash;</span></p>
                         </div>
                     </div>
                 ))}
