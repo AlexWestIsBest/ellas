@@ -1,5 +1,5 @@
 import React from 'react';
-import "./LunchTab.css"
+import "./LunchMenu.css"
 //
 import lunchLogo from './Logos/lunchLogo.png'
 import lunches from './Data/lunches';
@@ -8,7 +8,7 @@ import saladsLogo from './Logos/saladsLogo.png'
 import salads from './Data/salads';
 
 
-function LunchTab() {
+function LunchMenu() {
     return (
         <div className="VStack lunchTab">
             <br />
@@ -53,4 +53,4 @@ function LunchTab() {
     );
 }
 
-export default LunchTab;
+export default LunchMenu;

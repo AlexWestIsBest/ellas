@@ -1,5 +1,5 @@
 import React from 'react';
-import "./DinnerTab.css"
+import "./DinnerMenu.css"
 //
 import smallPlatesLogo from './Logos/smallPlatesLogo3.png'
 import smallPlates from './Data/smallPlates';
@@ -14,7 +14,7 @@ import saladsLogo from './Logos/saladsLogo.png'
 import salads from './Data/salads';
 
 
-function DinnerTab() {
+function DinnerMenu() {
     return (
         <div className="VStack dinnerTab">
             <br />
@@ -97,4 +97,4 @@ function DinnerTab() {
     );
 }
 
-export default DinnerTab;
+export default DinnerMenu;

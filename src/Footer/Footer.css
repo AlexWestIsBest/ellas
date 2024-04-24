@@ -4,23 +4,30 @@
     bottom: 0px;
     left: 0px;
     width: 100%;
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 .footer .button {
-    /* background-color: white; */
-    /* border: 1px solid black; */
+    display: flex;
     color: white;
-    font-size: large;
-    font-weight: 900;
-    padding: 10px 20px;
     cursor: pointer;
     transition: 0.3s;
-    border: 1px solid rgb(255, 191, 0);
+    border-radius: 1000px;
+    padding: 2px 10px 3px 10px;
     text-decoration: none;
 }
 
 .footer .button:hover, .footer .button.active {
-    background-color: rgb(255, 191, 0); /* Change background color on hover */
+    background-color: rgb(255, 191, 0);
     color: black;
+    padding: 2px 20px 3px 20px;
+}
+
+.footer .VStack.button h3 {
+    font-size: large;
+    font-weight: 900;
+}
+
+.footer .button p {
+    font-size: small;
 }

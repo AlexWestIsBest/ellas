@@ -49,6 +49,8 @@
 .dinnerTab .price {
     color: white;
     font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 500;
 }
 
 
