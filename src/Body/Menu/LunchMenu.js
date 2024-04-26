@@ -23,8 +23,8 @@ function LunchMenu() {
                             alt=""
                         />
                         <div className="VStack">
-                            <h3>{lunch.name}</h3>
-                            <p>{lunch.description} ${lunch.price}</p>
+                            <h3>{lunch.name} <span className="price">| ${lunch.price}</span></h3>
+                            <p>{lunch.description}</p>
                         </div>
                     </div>
                 ))}
@@ -43,8 +43,8 @@ function LunchMenu() {
                             alt=""
                         />
                         <div className="VStack">
-                            <h3>{salad.name}</h3>
-                            <p>{salad.description} ${salad.price}</p>
+                            <h3>{salad.name} <span className="price">| ${salad.price}</span></h3>
+                            <p>{salad.description}</p>
                         </div>
                     </div>
                 ))}

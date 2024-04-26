@@ -29,8 +29,8 @@ function DinnerMenu() {
                             alt=""
                         />
                         <div className="VStack">
-                            <h3>{smallPlate.name}</h3>
-                            <p>{smallPlate.description} <span className="price">${smallPlate.price}&mdash;</span></p>
+                            <h3>{smallPlate.name} <span className="price">| ${smallPlate.price}</span></h3>
+                            <p>{smallPlate.description}</p>
                         </div>
                     </div>
                 ))}
@@ -49,8 +49,8 @@ function DinnerMenu() {
                             alt=""
                         />
                         <div className="VStack">
-                            <h3>{salad.name}</h3>
-                            <p>{salad.description} <span className="price">${salad.price}&mdash;</span></p>
+                            <h3>{salad.name} <span className="price">| ${salad.price}</span></h3>
+                            <p>{salad.description}</p>
                         </div>
                     </div>
                 ))}
@@ -68,8 +68,8 @@ function DinnerMenu() {
                             alt=""
                         />
                         <div className="VStack">
-                            <h3>{handheld.name}</h3>
-                            <p>{handheld.description} <span className="price">${handheld.price}&mdash;</span></p>
+                            <h3>{handheld.name} <span className="price">| ${handheld.price}</span></h3>
+                            <p>{handheld.description}</p>
                         </div>
                     </div>
                 ))}
@@ -87,8 +87,8 @@ function DinnerMenu() {
                             alt=""
                         />
                         <div className="VStack">
-                            <h3>{pizza.name}</h3>
-                            <p>{pizza.description} <span className="price">${pizza.price}&mdash;</span></p>
+                            <h3>{pizza.name} <span className="price">| ${pizza.price}</span></h3>
+                            <p>{pizza.description}</p>
                         </div>
                     </div>
                 ))}
