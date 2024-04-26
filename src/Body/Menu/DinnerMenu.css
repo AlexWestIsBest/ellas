@@ -26,6 +26,7 @@
 
 .dinnerTab .featured {
     border: 2px solid rgb(83, 74, 52);
+    border-bottom-right-radius: 19px;
     /* border: 2px solid rgb(243, 212, 163); */
 }
 

@@ -26,6 +26,7 @@
 
 .lunchTab .featured {
     border: 2px solid rgb(84, 75, 53);
+    border-bottom-right-radius: 19px;
 }
 
 .lunchTab .plate {
