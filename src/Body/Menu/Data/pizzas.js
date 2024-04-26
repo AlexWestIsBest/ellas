@@ -24,7 +24,7 @@ const pizzas = [
         name: "The Grapevine",
         description: "Roasted Garlic Oil, Shredded Whole Milk Mozzarella, Gorgonzola, Red Grape, Rosemary, Pistachio, Arugula, Parmigiano Reggiano.",
         price: 19,
-        featured: true,
+        featured: false,
         imageURL: ""
     },
     {
@@ -38,7 +38,7 @@ const pizzas = [
         name: "The Georgia (On My Mind)",
         description: "Extra Virgin Olive Oil, Shredded Whole Milk Mozzarella, Prosciutto, Bourbon Glazed Peaches, Red Chili Flakes, Arugula.",
         price: 18,
-        featured: false,
+        featured: true,
         imageURL: ""
     },
     {

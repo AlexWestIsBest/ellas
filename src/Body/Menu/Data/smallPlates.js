@@ -17,7 +17,7 @@ const smallPlates = [
       name: "Ella's Meatballs",
       description: "Marinara. Parmesan. Basil. Grilled Ciabatta.",
       price: 12,
-      featured: true,
+      featured: false,
       imageURL: ""
   },
   {
@@ -31,7 +31,7 @@ const smallPlates = [
       name: "Wings",
       description: "Fried. Baked. Fried Again. Tossed with choice of Korean BBQ or Sweet Bourbon Honey.",
       price: 12,
-      featured: false,
+      featured: true,
       imageURL: ""
   },
   {
@@ -52,7 +52,7 @@ const smallPlates = [
       name: "Bang Bang Tacos",
       description: "Ella's Bang Bang Shrimp. Jalapeno Lime Slaw. Chipotle Crema. Cilantro.",
       price: 14,
-      featured: true,
+      featured: false,
       imageURL: ""
   },
   {

@@ -6,7 +6,7 @@ const handhelds = [
             { type: "Single", price: 10 },
             { type: "Double", price: 13 }
         ],
-        featured: true,
+        featured: false,
         imageURL: ""
     },
     {
@@ -51,14 +51,14 @@ const handhelds = [
         name: "Turkey Bacon Melt",
         description: "Shaved Turkey Breast. Applewood Smoked Bacon. Grilled Onion. Swiss. Provolone. Lettuce. Tomato. House Ranch.",
         price: 13,
-        featured: false,
+        featured: true,
         imageURL: ""
     },
     {
         name: "Sicilian",
         description: "Shaved Ham. Pepperoni. Salami. Provolone. Lettuce. Tomato. Onion. Banana Pepper. Roasted Garlic Aioli. House Vinaigrette.",
         price: 13,
-        featured: true,
+        featured: false,
         imageURL: ""
     },
     {

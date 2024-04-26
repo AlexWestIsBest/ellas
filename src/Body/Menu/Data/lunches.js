@@ -6,7 +6,7 @@ const lunches = [
             { type: "Single", price: 10 },
             { type: "Double", price: 14 }
         ],
-        featured: true,
+        featured: false,
         imageURL: ""
     },
     {
@@ -16,7 +16,7 @@ const lunches = [
             { type: "Single", price: 11 },
             { type: "Double", price: 15 }
         ],
-        featured: false,
+        featured: true,
         imageURL: ""
     },
     {
@@ -44,7 +44,7 @@ const lunches = [
         name: "Chicago Beef",
         description: "Shaved Ribeye. Grilled Onions and Peppers. Au Jus.",
         price: 12,
-        featured: true,
+        featured: false,
         imageURL: ""
     },
     {
