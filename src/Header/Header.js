@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import { useLocation } from 'react-router-dom';
 
-import restaurantLogo from './Images/ellasWhiteOnBlack.jpg';
+import restaurantLogo from './Images/ellasPNG.png';
 import truckLogo from './Images/ellasTruck.jpg'
 
 
