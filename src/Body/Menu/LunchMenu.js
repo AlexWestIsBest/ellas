@@ -40,7 +40,7 @@ function LunchMenu() {
                     <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={salad.imageURL ? salad.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
+                            src={salad.imageURL ? salad.imageURL : "https://placehold.co/60x60ç/gray/lightgray?text=Image"} 
                             alt=""
                         />
                         <div className="VStack">

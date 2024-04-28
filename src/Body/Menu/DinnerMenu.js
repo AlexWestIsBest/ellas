@@ -25,7 +25,7 @@ function DinnerMenu() {
                     <div className={`menuItem ${smallPlate.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={smallPlate.imageURL ? smallPlate.imageURL : "https://placehold.co/60x60/black/gray?text=Photo"} 
+                            src={smallPlate.imageURL ? smallPlate.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
                             alt=""
                         />
                         <div className="VStack">
@@ -45,7 +45,7 @@ function DinnerMenu() {
                     <div className={`menuItem ${salad.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={salad.imageURL ? salad.imageURL : "https://placehold.co/60x60/black/gray?text=Photo"} 
+                            src={salad.imageURL ? salad.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
                             alt=""
                         />
                         <div className="VStack">
@@ -64,7 +64,7 @@ function DinnerMenu() {
                     <div className={`menuItem ${handheld.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={handheld.imageURL ? handheld.imageURL : "https://placehold.co/60x60/black/gray?text=Photo"} 
+                            src={handheld.imageURL ? handheld.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
                             alt=""
                         />
                         <div className="VStack">
@@ -83,7 +83,7 @@ function DinnerMenu() {
                     <div className={`menuItem ${pizza.featured ? 'featured' : ''}`}>
                         <img
                             className="plate"
-                            src={pizza.imageURL ? pizza.imageURL : "https://placehold.co/60x60/black/gray?text=Photo"} 
+                            src={pizza.imageURL ? pizza.imageURL : "https://placehold.co/60x60/gray/lightgray?text=Image"} 
                             alt=""
                         />
                         <div className="VStack">
