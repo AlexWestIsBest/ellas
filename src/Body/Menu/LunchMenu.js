@@ -14,6 +14,7 @@ function LunchMenu() {
             <br />
 
             <img className="lunchLogo" src={lunchLogo} alt="" />
+            <p>All sandwiches served with side of House Fries or Pasta Salad</p>
             <div className="HStack">
                 {lunches.map(lunch => (
                     <div className={`menuItem ${lunch.featured ? 'featured' : ''}`}>
