@@ -17,17 +17,19 @@ function App() {
     return (
         <Router>
             <div className="App">
-                <Header />
-                <div className="bodyContent">
-                    <Routes>
-                        <Route path="/" element={<DinnerMenu />} />  {/* currently shows menu, but I can create an actual home page too. */}
-                        <Route path="/lunchmenu" element={<LunchMenu />} />
-                        <Route path="/dinnermenu" element={<DinnerMenu />} />
-                        <Route path="/drinks" element={<Drinks />} />
+                {/* <Header /> */}
+                {/* <div className="bodyContent"> */}
+                    {/* <Routes> */}
+                        {/* <Route path="/" element={<DinnerMenu />} />  currently shows menu, but I can create an actual home page too. */}
+                        {/* <Route path="/lunchmenu" element={<LunchMenu />} /> */}
+                        {/* <Route path="/dinnermenu" element={<DinnerMenu />} /> */}
+                        {/* <Route path="/drinks" element={<Drinks />} /> */}
                         {/* <Route path="/foodtruck" element={<FoodTruck />} /> */}
-                    </Routes>
-                </div>
-                <Footer />
+                    {/* </Routes> */}
+                {/* </div> */}
+                {/* <Footer /> */}
+
+                <h2>Ella's website coming soon!</h2>
             </div>
         </Router>
     );
