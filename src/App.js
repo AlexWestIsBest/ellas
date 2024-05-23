@@ -1,16 +1,16 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom'; // Add Routes and Route back in 
 //
-import Header from './Header/Header';
+// import Header from './Header/Header';
 //
 // import Home from './Body/Home';
-import LunchMenu from './Body/Menu/LunchMenu';
-import DinnerMenu from './Body/Menu/DinnerMenu';
-import Drinks from './Body/Drinks/Drinks';
+// import LunchMenu from './Body/Menu/LunchMenu';
+// import DinnerMenu from './Body/Menu/DinnerMenu';
+// import Drinks from './Body/Drinks/Drinks';
 // import FoodTruck from './Body/FoodTruck/FoodTruck';
 //
-import Footer from './Footer/Footer';
+// import Footer from './Footer/Footer';
 
 
 function App() {
