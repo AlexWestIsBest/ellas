@@ -24,6 +24,7 @@ function Home() {
                     <p>Friday ................... 11am-12am</p>
                     <p>Saturday ............... 11am-12am</p>
                     <p>Sunday ........................ 11-8pm</p>
+                    <p>*Kitchen closes 1 hour earlier</p>
                     <br />
                     <h1>Coming June 2024!</h1>
                 </div>
