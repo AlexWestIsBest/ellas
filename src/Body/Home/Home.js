@@ -17,13 +17,13 @@ function Home() {
                     <br />
                     <p>Chef-Driven Kitchen Serving Small Plates, Craft Sandwiches & NY Style Pizza. LOTS of Wine, Beer, and Full Bar. Tasting Events. Live Music.</p>
                     <br />
-                    <p>Monday .................... Closed</p>
-                    <p>Tuesday .................. 12-8pm</p>
-                    <p>Wednesday ............ 12-8pm</p>
-                    <p>Thursday ................ 12-8pm</p>
-                    <p>Friday ................... 12-11pm</p>
-                    <p>Saturday ............... 12-11pm</p>
-                    <p>Sunday ................. 12-11pm</p>
+                    <p>Monday ................... 11am-9pm</p>
+                    <p>Tuesday .................. 11am-9pm</p>
+                    <p>Wednesday ............ 11am-9pm</p>
+                    <p>Thursday ................ 11am-9pm</p>
+                    <p>Friday ................... 11am-12am</p>
+                    <p>Saturday ............... 11am-12am</p>
+                    <p>Sunday ........................ 11-8pm</p>
                     <br />
                     <h1>Coming June 2024!</h1>
                 </div>
