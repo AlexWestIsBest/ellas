@@ -3,15 +3,17 @@ import './Home.css'
 
 import Logo from './Images/ellasPNG.png'
 import IG from './Images/instagram.png'
+import shot1 from './Images/A7R01340.jpg'
 
 
 function Home() {
     return (
         <div className="Home">
             <div className="VStack">
-                <img src={Logo} alt="Restaurant logo" />    
+                <img src={Logo} className="ellasLogo" alt="Restaurant logo" />  
+                <img src={shot1} className="shot1" alt="Table with food" />  
 
-                <a href="Menu.pdf" className="menuPDF"><h3>See Menu</h3></a>
+                <a href="Menu.pdf" className="menuPDF"><h3>View Menu</h3></a>
 
                 <div className="VStack">
                     <br />
@@ -26,7 +28,6 @@ function Home() {
                     <p>Sunday ........................ 11-8pm</p>
                     <p>*Kitchen closes 1 hour earlier</p>
                     <br />
-                    <h1>Coming June 2024!</h1>
                 </div>
 
                 <a href="https://www.instagram.com/ellaskitchenandwinebar?igsh=bDJ6eTRzbWl5eWR6" className="HStack instagramLink">
