@@ -13,7 +13,10 @@ function Home() {
                 <img src={Logo} className="ellasLogo" alt="Restaurant logo" />  
                 <img src={shot1} className="shot1" alt="Table with food" />  
 
-                <a href="Menu.pdf" className="menuPDF"><h3>View Menu</h3></a>
+                <div className="HStack">
+                    <a href="Menu.pdf" className="button"><h3>View Menu</h3></a>
+                    <a href="https://order.toasttab.com/online/ellas-craft-kitchen-bar-6462-winchester-rd" className="button"><h3>Order Online</h3></a>
+                </div>
 
                 <div className="VStack">
                     <br />
@@ -21,8 +24,8 @@ function Home() {
                     <br />
                     <p>Monday ................... 11am-9pm</p>
                     <p>Tuesday .................. 11am-9pm</p>
-                    <p>Wednesday ............ 11am-9pm</p>
-                    <p>Thursday ................ 11am-9pm</p>
+                    <p>Wednesday ............. 11am-9pm</p>
+                    <p>Thursday ................. 11am-9pm</p>
                     <p>Friday .................... 11am-11pm</p>
                     <p>Saturday ................ 11am-11pm</p>
                     <p>Sunday ......................... 10-4pm</p>
