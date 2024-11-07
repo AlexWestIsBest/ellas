@@ -64,6 +64,11 @@ html, body {
     transition: 0.3s;
 }
 
+.flyer {
+    max-width: 50%;
+    max-height: 300px;
+}
+
 p {
     max-width: 360px;
 }
